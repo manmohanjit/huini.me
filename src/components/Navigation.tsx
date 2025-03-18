@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {usePathname} from "next/navigation";
+import {useState} from "react";
 
 const links = [
   { title: "Home", href: "/" },
@@ -57,14 +58,15 @@ const NavigationLink = ({item, level = 0, current}) => {
 
 export default function Navigation() {
   const pathname = usePathname();
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <div className="group/mobile relative">
-      <button className="md:hidden p-4 px-8 cursor-pointer">
+      <button className="md:hidden p-4 px-8 cursor-pointer" onClick={() => setShowMenu(v => !v)}>
         <img src="/images/hamburger.svg" className="w-6 h-6" alt="Menu" />
       </button>
 
-      <ul className="border border-neutral-200 md:border-0 hidden group-hover/mobile:block absolute right-4 md:static z-50 md:!flex justify-end gap-4">
+      <ul className={`border border-neutral-200 md:border-0 ${showMenu ? 'block' : 'hidden'} group-hover/mobile:block absolute right-4 md:static z-50 md:!flex justify-end gap-4`}>
         {links.map(item => (
           <NavigationLink key={item.href} item={item} current={pathname}/>
         ))}
