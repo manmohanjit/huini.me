@@ -25,11 +25,11 @@ export default function Index() {
 
   return (
     <PageLayout title="campaigns">
-      <div className="md:bg-[url(/images/campaigns/xmas-bg-lg.png)] bg-[url(/images/campaigns/xmas-bg.png)] bg-no-repeat bg-[length:100%] bg-[center_top]">
+      <div className="bg-[url(/images/campaigns/xmas-bg-lg.png)] bg-no-repeat bg-[length:100%] bg-[center_top]">
       <div className="py-4">
         <img src="/images/campaigns/ribbon.png" alt="Ribbon" className="w-36 h-auto mx-auto mb-8"/>
 
-        <div className="container max-w-screen-md mx-auto px-6 text-center">
+        <div className="container max-w-screen-md mx-auto px-8 text-center">
           <h2 className="text-5xl font-bold text-green-900 mb-4">12 Days of Santa’s Journey</h2>
           <div className="mb-6">
             <span className="inline-block px-4 py-2 bg-red-800 text-white text-xs rounded-full">Contest period: <strong>December 2019</strong></span>
@@ -78,10 +78,6 @@ export default function Index() {
       </div>
 
       </div>
-
-      <Divider className="mt-16"/>
-
-      <Socials/>
 
     </PageLayout>
   )

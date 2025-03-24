@@ -1,6 +1,6 @@
 const Billboard = ({image, brand, title, color, href, children}) => {
   return (
-    <div className="container mx-auto px-4 py-16">
+    <div className="container mx-auto px-8 my-36 md:py-44">
 
       <a href={href} target="_blank">
         <img src={image} alt={brand} title={brand} className="w-40 h-auto mx-auto mb-4"/>
@@ -10,7 +10,7 @@ const Billboard = ({image, brand, title, color, href, children}) => {
       <h4 className="text-4xl md:text-6xl font-bold text-center">{title}</h4>
 
       {children && (
-        <div className="mt-6 text-center">{children}</div>
+        <div className="mt-2 text-center">{children}</div>
       )}
 
     </div>

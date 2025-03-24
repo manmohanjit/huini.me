@@ -6,7 +6,7 @@ const SlideshowBillboard = ({backgroundColor, color, subtitle, title, images, ch
   const isClient = useIsClient();
 
   return (
-    <div className="py-16" style={{backgroundColor}}>
+    <div className="my-16" style={{backgroundColor}}>
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap md:flex-nowrap items-center gap-8">
           <div className="w-full md:w-1/2">

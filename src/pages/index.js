@@ -26,20 +26,20 @@ export default function Home() {
           </div>
 
           <div className="container max-w-[1000px] mx-auto px-4">
-            <img className="select-none block w-full h-auto" src="/images/home/cover.png"
+            <img className="select-none block w-full h-auto" src="/images/home/me-starter-pack.jpg"
                  alt="Huini"/>
           </div>
         </div>
       </div>
 
-      <div className="py-0">
+      <div className="my-24 md:py-0">
 
         <Skills/>
 
       </div>
 
-      <div className="py-8 md:py-16 my-24 md:my-52">
-        <div className="container mx-auto px-4">
+      <div className="md:min-h-screen flex items-center my-60 md:my-16">
+        <div className="container mx-auto px-">
           <div className="flex flex-wrap items-center justify-center gap-4">
             <h4 className="text-[2.5rem] md:text-[4rem] font-extrabold">
               i’m also good at
@@ -86,15 +86,11 @@ export default function Home() {
       <Quote/>
 
       <div className="py-8 md:py-16 mt-24 md:mt-52">
-        <Heading className="mb-6" title="brands i’ve worked with"
+        <Heading className="mb-6" title={(<>brands i’ve<br className="md:hidden"/> worked with</>)}
                  subtitle="give me beauty, food, automotive, or even lottery – I’m always up for the next thing. 💁🏻‍♀️"/>
 
         <Brands/>
       </div>
-
-      <Divider/>
-
-      <Socials/>
 
 
     </PageLayout>

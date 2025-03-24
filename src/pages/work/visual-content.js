@@ -47,10 +47,6 @@ export default function Index() {
 
       <MasonryLayout title="car photoshoot" items={carPhotoshootItems} reverse={true}/>
 
-      <Divider className="mt-16"/>
-
-      <Socials/>
-
     </PageLayout>
   )
 }

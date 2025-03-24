@@ -63,7 +63,7 @@ export default function Index() {
 
 
           <div
-            className="px-10 lg:px-6 py-8 text-black">
+            className="px-0 py-8 text-black">
             <h4 className="mb-4 font-bold text-lg">READ MORE HERE!</h4>
             <p className="mb-4">I got into digital marketing after my internship out of pure curiosity. I
               self-taught
@@ -91,7 +91,7 @@ export default function Index() {
 
       <div className="py-16 relative">
         <div className="w-[300px] md:w-[400px] mx-auto relative">
-          <h3 className="text-4xl font-bold px-8 text-center absolute top-[20%]">my area of expertise</h3>
+          <h3 className="text-4xl font-bold px-4 text-center absolute top-[20%]">my area of expertise</h3>
           <img
             className="w-full h-auto"
             src="/images/about/skills/phone.jpg"
@@ -108,7 +108,8 @@ export default function Index() {
               disableOnInteraction: false,
               pauseOnMouseEnter: false,
             }}
-            slidesPerView={3}
+            centeredSlides={true}
+            slidesPerView={1.8}
             spaceBetween={20}
             slidesOffsetAfter={0}
             slidesOffsetBefore={0}
@@ -130,18 +131,18 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="py-16 ">
+      <div className="py-16">
         <Heading className="mb-12" title="my marketing toolbox:"/>
 
         <div className="container mx-auto px-4">
-          <div className="flex items-center justify-center space-x-6 mb-6">
+          <div className="flex flex-wrap items-center justify-center gap-8 mb-8">
             {tools.map(tool => (
               <div className="w-16 h-16">
                 <img className="w-full h-auto" src={tool.image} alt={tool.title} title={tool.title} key={tool.title}/>
               </div>
             ))}
           </div>
-          <div className="flex items-center justify-center space-x-8">
+          <div className="flex flex-wrap items-center justify-center gap-8">
             {platforms.map(tool => (
               <div className="w-40">
                 <img className="w-full h-auto" src={tool.image} alt={tool.title} title={tool.title} key={tool.title}/>
@@ -150,10 +151,6 @@ export default function Index() {
           </div>
         </div>
       </div>
-
-      <Divider/>
-
-      <Socials/>
 
     </PageLayout>
   )

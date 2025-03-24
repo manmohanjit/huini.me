@@ -41,10 +41,6 @@ export default function Index() {
         </div>
       </div>
 
-      <Divider className="mt-16"/>
-
-      <Socials/>
-
     </PageLayout>
   )
 }

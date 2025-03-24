@@ -18,7 +18,7 @@ export default function Index() {
         color="#c98643"
         title={(
           <>
-            A fusion japanese restaurant<br />
+            A fusion japanese restaurant
             with an aesthetic vibe
           </>
         )}
@@ -175,7 +175,6 @@ export default function Index() {
           ]}
         /></NumberedBillboard>
 
-      <Socials/>
 
     </PageLayout>
   )

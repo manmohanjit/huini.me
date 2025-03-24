@@ -1,6 +1,6 @@
 const PrimaryBillboard = ({title, subtitle, image, children, note}) => {
   return (
-    <div className="relative py-28">
+    <div className="relative my-28">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="order-1 md:order-0 md:w-2/3 mt-12 md:mt-0">

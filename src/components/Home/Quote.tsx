@@ -1,7 +1,7 @@
 export default function Quote() {
   return (
-    <div className="container max-w-screen-lg mx-auto px-4 lg:px-0 text-center">
-      <div className="px-4 py-8 md:py-12 bg-stone-100 rounded-2xl">
+    <div className="px-4 lg:px-0 text-center  bg-stone-100">
+      <div className="container max-w-screen-lg mx-auto py-8 md:py-12">
         <div className="text-2xl/[1.5] md:text-5xl/[1.5] font-bold tracking-wide">
           <p className="mb-2">Without <span
             className="border-dashed border-gray-500 border-4 px-2 pb-2 hover:cursor-pointer relative">strategy,<span

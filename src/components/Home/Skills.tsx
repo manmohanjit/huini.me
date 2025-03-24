@@ -12,7 +12,7 @@ export default function Skills() {
             <p className="text-xs lg:text-base text-black tracking-wide group-hover:underline underline-offset-4">Read more &rarr;</p>
           </div>
 
-          <img src="/images/home/skills/social-media-strategy.png" alt="" className="self-end w-4/12 lg:w-8/12 rounded-br-2xl"/>
+          <img src="/images/home/skills/social-media-strategy.png" alt="" className="self-end -mt-12 w-4/12 lg:w-8/12 rounded-br-2xl"/>
           <Link href="/work/social-media-strategy" className="absolute top-0 left-0 w-full h-full" />
         </div>
 
@@ -21,7 +21,7 @@ export default function Skills() {
             <h4 className="text-white text-3xl lg:text-5xl font-extrabold mb-6 leading-none">Visual Content</h4>
             <p className="text-xs lg:text-base text-black tracking-wide group-hover:underline underline-offset-4">Read more &rarr;</p>
           </div>
-          <img src="/images/home/skills/visual-content.png" alt="" className="self-end w-4/12 lg:w-8/12 rounded-br-2xl"/>
+          <img src="/images/home/skills/visual-content.png" alt="" className="self-end -mt-12 w-4/12 lg:w-8/12 rounded-br-2xl"/>
           <Link href="/work/visual-content" className="absolute top-0 left-0 w-full h-full" />
         </div>
 
@@ -31,7 +31,7 @@ export default function Skills() {
             <p className="text-xs lg:text-base text-black tracking-wide group-hover:underline underline-offset-4">Read more &rarr;</p>
 
           </div>
-          <img src="/images/home/skills/campaign.png" alt="" className="self-end w-4/12 lg:w-8/12 rounded-br-2xl"/>
+          <img src="/images/home/skills/campaign.png" alt="" className="self-end -mt-12 w-4/12 lg:w-8/12 rounded-br-2xl"/>
           <Link href="/work/campaigns" className="absolute top-0 left-0 w-full h-full" />
         </div>
 

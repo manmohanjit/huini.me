@@ -31,7 +31,7 @@ export default function Socials() {
     <div className="container mx-auto px-4 py-8 md:py-12 text-center">
       <div className="mb-4">
         <h3 className="block text-xl md:text-2xl font-bold">Let's connect!</h3>
-        <p className="block text-gray-700">If you’ve made it this far, you might as well say hi. 👋🏼</p>
+        <p className="block text-gray-700 text-xs md:text-base">If you’ve made it this far, you might as well say hi. 👋🏼</p>
       </div>
 
       <div className="flex items-center justify-center space-x-2">

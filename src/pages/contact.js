@@ -88,10 +88,6 @@ export default function Index() {
         </form>
       </div>
 
-      <Divider className="mt-16"/>
-
-      <Socials/>
-
     </PageLayout>
   )
 }

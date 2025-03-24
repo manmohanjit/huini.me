@@ -17,7 +17,7 @@ export default function Index() {
         color="#fcb900"
         title={(
           <>
-            The OG of<br/>
+            The OG of
             4D lottery in Malaysia
           </>
         )}
@@ -31,7 +31,7 @@ export default function Index() {
         subtitle="The old content"
         title={(
           <>
-            Just background noise,<br/>
+            Just background noise,
             existing but not engaging
           </>
         )}
@@ -76,7 +76,7 @@ export default function Index() {
         title="social media-friendly visuals"
         subtitle={(
           <>
-            Memes people actually get, copy that’s quick to read and doesn’t bore them.<br/>
+            Memes people actually get, copy that’s quick to read and doesn’t bore them.
             Overall, it should be easy to digest!
           </>
         )}
@@ -112,7 +112,7 @@ export default function Index() {
         title="be relatable"
         subtitle={(
           <>
-            Get on their wavelength! Hit them with real struggles to tap into<br/>
+            Get on their wavelength! Hit them with real struggles to tap into
             those pain points. Because people love content that feels personal.
           </>
         )}
@@ -147,7 +147,7 @@ export default function Index() {
         title="2-way conversation"
         subtitle={(
           <>
-            Don’t just talk <i>at</i> them, talk <i>with</i> them! Get them to engage and give them<br/>
+            Don’t just talk <i>at</i> them, talk <i>with</i> them! Get them to engage and give them
             a reason to comment, not just scroll by.
           </>
         )}
@@ -176,7 +176,7 @@ export default function Index() {
         title="trend-hopping"
         subtitle={(
           <>
-            Another way to stay relevant! We want them to think we’re <i>so</i> in,<br/>
+            Another way to stay relevant! We want them to think we’re <i>so</i> in,
             but we don’t force it. They’ll be thinking, ‘Damn, that was smooth!’ 😏
           </>
         )}
@@ -198,7 +198,7 @@ export default function Index() {
         />
       </NumberedBillboard>
 
-      <div className="container max-w-screen-lg mx-auto">
+      <div className="container max-w-screen-lg mx-auto mb-24">
         <div className="lg:rounded-xl" style={{backgroundColor: "#ffefce"}}>
 
           <div className="flex flex-wrap px-14 md:px-24 gap-4 sm:gap-8">
@@ -207,7 +207,7 @@ export default function Index() {
             </div>
             <div className="order-0 md:order-1 flex-1 pt-12 sm:pb-12 self-center">
               <h3 className="text-4xl font-bold mb-4" style={{color: "#fcb900"}}>
-                Seeing Yellow?<br/>
+                Seeing Yellow?
                 Yup, it’s Magnum4D
               </h3>
               <p>Because that’s our statement. We want to be the first thing that pops into your head when you think
@@ -219,15 +219,13 @@ export default function Index() {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-24">
+      <div className="container mx-auto px-4 py-8">
         <h3 className="text-4xl font-bold mb-8 text-center">
           Some receipts that prove our<br className="hidden md:block" />
           content hits right!
         </h3>
         <img src="/images/work/magnum4d/reciepts.png" alt="Reciepts" className="max-w-screen-md mx-auto w-full h-auto" />
       </div>
-
-      <Socials/>
 
     </PageLayout>
   )

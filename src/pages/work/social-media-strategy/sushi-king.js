@@ -22,12 +22,12 @@ export default function Index() {
         color="#cf2e2e"
         title={(
           <>
-            First to introduce<br />
+            First to introduce
             sushi on kaiten in M’sia, 1995
           </>
         )}
       >
-        <p>Halal and available nationwide so takde hal lah if you’re out of the city<br/>
+        <p>Halal and available nationwide so takde hal lah if you’re out of the city
           but still craving for some japanese 👌🏼</p>
       </Billboard>
 
@@ -37,7 +37,7 @@ export default function Index() {
         subtitle="The old content"
         title={(
           <>
-            Sushi was fresh,<br/>
+            Sushi was fresh,
             but the content wasn’t
           </>
         )}
@@ -70,7 +70,11 @@ export default function Index() {
         image="/images/work/sushi-king/cut-sushi.jpg"
         note="*Click on the visuals to view the original posts with captions. Engagement stats are sourced from the platform's insights."
       >
-        <p>Just like the name suggests, Sushi King' is the legend of Japanese food in Malaysia—one of the first halal ones 🙌🏼. So, we’re cooking up content with a tasty mix of Japanese x Malaysian flavours: talking about Japanese food in Manglish with a side of local humour for a chill vibe. And also customising content for every platform with a channel strategy.</p>
+        <p className="mb-4">Just like the name suggests, Sushi King' is the legend of Japanese food in Malaysia—one of
+          the first halal ones 🙌🏼. <br className="md:hidden"/><br className="md:hidden"/>
+          So, we’re cooking up content with a tasty mix of Japanese x Malaysian flavours: talking about Japanese food in
+          Manglish with a side of local humour for a chill vibe. And also customising content for every platform with a
+          channel strategy.</p>
       </PrimaryBillboard>
 
       <NumberedBillboard
@@ -105,12 +109,13 @@ export default function Index() {
           ]}
         />
 
-        <div className="mt-16 grid grid-cols-3 gap-4">
-          <div className="order-2 md:order-1 col-span-3 md:col-span-1 place-content-center">
+
+        <div className="mt-16 grid grid-cols-3 gap-8 md:gap-4">
+          <div className="col-span-3 md:col-span-1 place-content-center">
             <p className="mb-4"><strong>Fun fact 🤓:</strong> 44% of young Europeans from Generation Z use social networks to learn new things. (Source: <a className="text-red-500 hover:text-red-700 underline" href="https://www.freemalaysiatoday.com/category/leisure/2023/10/15/why-are-young-people-turning-to-social-media-to-learn-new-things/" target="_blank">Free Malaysia Today</a>)</p>
             <p>So, we mix in some fun Japanese food and culture facts to keep it interesting, and help audience get to know the brand better!</p>
           </div>
-          <div className="order-1 md:order-2 col-span-3 md:col-span-2">
+          <div className="col-span-3 md:col-span-2">
             <a href="" target="_blank">
               <img className="w-full h-auto" src="/images/work/sushi-king/types-of-sushi.png" alt="Types of sushi" />
             </a>
@@ -126,7 +131,7 @@ export default function Index() {
         title="instagram"
         subtitle={(
           <>
-            <strong className="text-lg">Warning ⚠️</strong><br/>Scrolling our feed may cause extreme hunger! It’s not
+            <strong className="text-lg">Warning ⚠️</strong>Scrolling our feed may cause extreme hunger! It’s not
             just visually delicious real-life food shots, we also showcase the full Sushi King lifestyle that’ll
             make you want to be a part of it.
           </>
@@ -154,15 +159,18 @@ export default function Index() {
           ]}
         />
 
-        <a
-          href="https://www.facebook.com/sushikingasia/posts/pfbid0yBvGy1nbzo6QMg24nvNLNz6tenwm8j3mQbfuTEdGN3jfVaDJPsQcnKz4TNdyy4QDl">
-          <img src="/images/work/sushi-king/how-to-sushi.png" alt="How to eat Sushi"
-               className="mt-16 w-full h-auto"/>
-        </a>
+        <div className="-mx-4 md:mx-0 my-24">
+          <a
+            href="https://www.instagram.com/p/C3RgMpKsm5P/?igsh=MXNqdTM4ZTJ6NHEzcA%3D%3D">
+            <img src="/images/work/sushi-king/how-to-sushi.png" alt="How to eat Sushi"
+                 className="mt-16 w-full h-auto"/>
+          </a>
+        </div>
 
         <div className="mt-16 grid grid-cols-5 gap-4 max-w-screen-lg mx-auto">
           <div className="col-span-5 md:col-span-3 place-content-center">
-            <p className="mb-4"><strong>the brief:</strong> please help to promote our “sushi tower challenge” with this picture to attract more people to join the challenge</p>
+            <p className="mb-4"><strong>the brief:</strong> please help to promote our “sushi tower challenge” with this
+              picture to attract more people to join the challenge</p>
 
             <div className="mb-4">
               <img className="max-w-[200px] w-full h-auto" src="/images/work/sushi-king/contestant-768x513.jpg" alt="Contestant" />
@@ -206,7 +214,7 @@ export default function Index() {
         color="#cf2e2e"
         image="/images/work/sushi-king/chopsticks.png"
         number="third."
-        title="tiktok & ig reel"
+        title={<>tiktok &<br className="md:hidden" /> ig reel</>}
         subtitle="No room for boring ads here! 🙅🏻‍♀️ Just real, down-to-earth content that’ll make you laugh or teach you something new."
       >
         <VideoGrid
@@ -228,7 +236,6 @@ export default function Index() {
           ]}
         />
       </NumberedBillboard>
-      <Socials/>
 
     </PageLayout>
   )

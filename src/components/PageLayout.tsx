@@ -1,6 +1,8 @@
 import Navigation from "@/components/Navigation";
 import Head from "next/head";
 import Link from "next/link";
+import Divider from "@/components/Divider";
+import Socials from "@/components/Socials";
 
 export default function ({children, title}) {
   return (
@@ -23,6 +25,10 @@ export default function ({children, title}) {
       </div>
 
       {children}
+
+      <Divider className="mt-24"/>
+
+      <Socials/>
     </div>
   )
 }
