@@ -7,10 +7,14 @@ const MasonryLayout = ({title, items, reverse = false}) => {
         </div>
         <div className={`lg:w-9/12 ${reverse ? "lg:order-0" : ""}`}>
           <div className="columns-2 md:columns-3 gap-4 space-y-4">
-            {items.map(({image, video}) => (
+            {items.map(({image, video, aspectRatio}) => (
               <div className="shadow-lg" key={image ?? video}>
                 {video ? (
-                  <video src={video} controls controlsList="nodownload" loop={true} />
+                  <iframe loading="lazy" title="sk post 6"
+                          src={video}
+                          frameBorder="0"
+                          className={`${aspectRatio || "aspect-[9/16]"} w-full h-auto`}
+                          allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"></iframe>
                 ) : (
                   <img src={image} alt=""/>
                 )}

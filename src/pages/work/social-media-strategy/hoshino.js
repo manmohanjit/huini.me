@@ -78,15 +78,15 @@ export default function Index() {
           items={[
             {
               key: 1,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-vegetarian.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012284?h=13a452ad86&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 2,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-food-porn.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012079?h=fce7073849&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 3,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-99-problems.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067011956?h=62bf5d89f7&amp;dnt=1&amp;app_id=122963",
             }
           ]}
         />
@@ -105,15 +105,15 @@ export default function Index() {
           items={[
             {
               key: 1,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-sheyap.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012160?h=9a308c2712&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 2,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-me-time-spot.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012111?h=67cd44e39c&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 3,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-a-lot-on-my-plate.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067011987?h=10730b76f7&amp;dnt=1&amp;app_id=122963",
             },
           ]}
         />
@@ -138,11 +138,11 @@ export default function Index() {
           items={[
             {
               key: 1,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-trend.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012235?h=058dcbce63&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 2,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-coffee-days.mp4" controls controlsList="nodownload" loop={true}/>
+              video: "https://player.vimeo.com/video/1067012044?h=973276424f&amp;dnt=1&amp;app_id=122963",
             },
           ]}
         />
@@ -160,14 +160,14 @@ export default function Index() {
           items={[
             {
               key: 1,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-spill-tea.mp4" controls controlsList="nodownload" loop={true}/>,
+              video: "https://player.vimeo.com/video/1067012201?h=d4e39bbd14&amp;dnt=1&amp;app_id=122963",
               text: (
                 <>Using 'tea' as the gossip material in Gen Z slang as a hook to promote our <strong>Buy 1 Free 1 Tea campaign</strong></>
               )
             },
             {
               key: 2,
-              video: <video src="/images/work/hoshino/new-posts/hoshino-all-day-menu.mp4" controls controlsList="nodownload" loop={true}/>,
+              video: "https://player.vimeo.com/video/1067012012?h=5f80ba8d8f&amp;dnt=1&amp;app_id=122963",
               text: (
                 <>Featuring 3 different value meals in 3 frames, each for a different time zone to promote <strong>All-Day Value Meal</strong></>
               )

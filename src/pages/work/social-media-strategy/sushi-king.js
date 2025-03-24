@@ -214,33 +214,15 @@ export default function Index() {
           items={[
             {
               key: 1,
-              video: (
-                <iframe loading="lazy"
-                        src="https://player.vimeo.com/video/1056444303?h=7278ea9169&amp;dnt=1&amp;app_id=122963"
-                        frameBorder="0"
-                        className="aspect-[9/16] w-full h-auto"
-                        allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"></iframe>
-              )
+              video: "https://player.vimeo.com/video/1056444303?h=7278ea9169&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 2,
-              video: (
-                <iframe loading="lazy" title="sk post 6"
-                        src="https://player.vimeo.com/video/1056446411?h=df11285361&amp;dnt=1&amp;app_id=122963"
-                         frameBorder="0"
-                        className="aspect-[9/16] w-full h-auto"
-                        allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"></iframe>
-              )
+              video: "https://player.vimeo.com/video/1056446411?h=df11285361&amp;dnt=1&amp;app_id=122963",
             },
             {
               key: 3,
-              video: (
-                <iframe loading="lazy" title="sk post 7"
-                        src="https://player.vimeo.com/video/1056446870?h=ec4f86526a&amp;dnt=1&amp;app_id=122963"
-                        frameBorder="0"
-                        className="aspect-[9/16] w-full h-auto"
-                        allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"></iframe>
-              )
+              video: "https://player.vimeo.com/video/1056446870?h=ec4f86526a&amp;dnt=1&amp;app_id=122963",
             },
 
           ]}
