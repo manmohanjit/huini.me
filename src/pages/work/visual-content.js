@@ -12,14 +12,19 @@ const socialVideoshootItems = [
   {video: "https://player.vimeo.com/video/1067012677?h=cc15573204&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012721?h=8ecd48f09d&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012111?h=67cd44e39c&amp;dnt=1&amp;app_id=122963"},
-  {video: "https://player.vimeo.com/video/1067012792?h=6bc252ae99&amp;dnt=1&amp;app_id=122963", aspectRatio: "aspect-square"},
+  {video: "https://player.vimeo.com/video/1067012792?h=6bc252ae99&amp;dnt=1&amp;app_id=122963", aspectRatio: "square"},
   {video: "https://player.vimeo.com/video/1067012825?h=86d5ef0f0b&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012854?h=19dae07cdb&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012887?h=f7403d683b&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012943?h=78575a0937&amp;dnt=1&amp;app_id=122963"},
   {video: "https://player.vimeo.com/video/1067012988?h=84ea366f07&amp;dnt=1&amp;app_id=122963"},
-  {video: "https://player.vimeo.com/video/1067013028?h=33897f0343&amp;dnt=1&amp;app_id=122963", aspectRatio: "aspect-square"},
+  {video: "https://player.vimeo.com/video/1067013028?h=33897f0343&amp;dnt=1&amp;app_id=122963", aspectRatio: "square"},
 ];
+const autoMotiveVideoItems = [
+  {video: "https://www.youtube.com/embed/Ep-lab9fcwI?si=WgTeQlnDijGF8MSe", aspectRatio: "video"},
+  {video: "https://www.youtube.com/embed/sBqxKpk5kOc?si=qT3MD5lIPd1Yl6t9", aspectRatio: "video"},
+  {video: "https://www.youtube.com/embed/R196NsU4xes?si=WNMSrNJ_TQTv7ZSv", aspectRatio: "video"},
+]
 
 export default function Index() {
 
@@ -32,6 +37,7 @@ export default function Index() {
           <p className="mb-4">It’s all about the first 3 seconds in this fast-scrolling world of social media. That's why I love putting extra effort into making scroll-stopping visuals. Take a look at my past projects below!</p>
         </div>
       </div>
+
 
       <MasonryLayout title="social photoshoot" items={socialPhotoshootItems}/>
 
@@ -46,6 +52,10 @@ export default function Index() {
       <Divider className="max-w-[300px]  my-16"/>
 
       <MasonryLayout title="car photoshoot" items={carPhotoshootItems} reverse={true}/>
+
+      <Divider className="max-w-[300px]  my-16"/>
+
+      <MasonryLayout title="automotive video" items={autoMotiveVideoItems} />
 
     </PageLayout>
   )

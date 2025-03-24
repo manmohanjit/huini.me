@@ -13,7 +13,7 @@ const MasonryLayout = ({title, items, reverse = false}) => {
                   <iframe loading="lazy" title="sk post 6"
                           src={video}
                           frameBorder="0"
-                          className={`${aspectRatio || "aspect-[9/16]"} w-full h-auto`}
+                          className={`${aspectRatio === "video" ? "aspect-video" : (aspectRatio === "square" ? "aspect-square" : "aspect-[9/16]")} w-full h-auto`}
                           allow="fullscreen; picture-in-picture; clipboard-write; encrypted-media"></iframe>
                 ) : (
                   <img src={image} alt=""/>
