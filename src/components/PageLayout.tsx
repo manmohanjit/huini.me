@@ -8,7 +8,7 @@ export default function ({children, title}) {
   return (
     <div>
       <Head>
-        <title>{title ? `${title} // ` : ""}hello, i'm Huini</title>
+        <title>{title ? `${title} // hello, i'm Huini` : "hello, i'm Huini"}</title>
       </Head>
 
       <div className="bg-white z-50">
